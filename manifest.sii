@@ -1,0 +1,17 @@
+SiiNunit
+{
+mod_package : .package_name
+{
+	package_version: 		"1.0"
+
+    display_name: 			"Mod Name"
+
+    author: 				"Author Name"
+   
+    category[]: 			"Mod Category" 
+
+    icon: 					"modicon.jpg"
+
+   
+}
+}
