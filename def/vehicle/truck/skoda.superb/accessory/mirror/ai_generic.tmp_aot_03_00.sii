@@ -1,0 +1,15 @@
+SiiNunit
+{
+accessory_addon_data : tmp_ai_gen.skoda.superb.mirror
+{
+	name: "TMP_AOT_03_00 - AI Generic"
+	price: 0
+	unlock: 0
+	icon: "ets2mp"
+	exterior_model: "/vehicle/real_ops/shared/tmp_aot_03_00_ai_scout_mirror.pmd"
+	exterior_model_uk: "/vehicle/real_ops/shared/tmp_aot_03_00_ai_scout_mirror_uk.pmd"
+	interior_model: "/vehicle/truck/upgrade/mirror/skoda_superb/mirror_01_interior.pmd"
+	interior_model_uk: "/vehicle/truck/upgrade/mirror/skoda_superb/mirror_01_interior_uk.pmd"
+
+}
+}

@@ -1,0 +1,346 @@
+SiiNunit
+{
+accessory_sound_data : int_tdi.skoda.superb.isound
+{
+	exterior_sound: false
+
+	start: .start
+	stop: .stop
+	start_no_fuel: .startbad
+
+	engine[]: .e0
+	engine[]: .e1
+	engine[]: .e2
+	engine[]: .e3
+	engine[]: .e4
+	engine[]: .e5
+
+	engine_load[]: .el1
+	engine_load[]: .el2
+	engine_load[]: .el3
+	engine_load[]: .el4
+	engine_load[]: .el5
+
+	engine_nofuel[]: .enf1
+	engine_nofuel[]: .enf2
+	engine_nofuel[]: .enf3
+
+	turbo: .t
+
+	air_gear[0]: .airgear0
+	air_gear[1]: .airgear1
+	air_gear[2]: .airgear2
+
+	air_brake[0]: .airbrake0
+	air_brake[1]: .airbrake1
+
+	motor_brake: .mbrake
+	horn: .horn
+	reverse: .reverse
+	change_gear: .changeg
+
+	blinker_on: .blinker_on
+	blinker_off: .blinker_off
+	wipers_up: .wipers_up
+	wipers_down: .wipers_down
+
+@include "/def/vehicle/truck/common_sound_int.sui"
+
+	suitable_for[]: "20tdi.skoda.superb.engine"
+
+}
+
+sound_data: .start
+{
+	name: "/sound/truck/skoda_tdi/int/start.ogg"
+	looped: false
+}
+
+sound_data: .startbad
+{
+	name: "/sound/truck/skoda_tdi/int/start_bad.ogg"
+	looped: false
+}
+
+sound_data: .stop
+{
+	name: "/sound/truck/skoda/int/stop_int.ogg"
+	looped: false
+}
+
+sound_engine_data: .e0
+{
+	name: "/sound/truck/skoda_tdi/int/idle.ogg"
+
+	looped: true
+
+	pitch_reference: 600
+
+	min_rpm: 300.0
+	max_rpm: 800.0
+	volume: 0.7
+}
+
+sound_engine_data: .e1
+{
+	name: "/sound/truck/skoda_tdi/int/1.ogg"
+
+	looped: true
+
+	pitch_reference: 800
+
+	min_rpm: 750.0
+	max_rpm: 1000.0
+	volume: 0.68
+}
+
+sound_engine_data: .e2
+{
+	name: "/sound/truck/skoda_tdi/int/2.ogg"
+
+	looped: true
+
+	pitch_reference: 950
+
+	min_rpm: 900.0
+	max_rpm: 1100.0
+	volume: 0.68
+}
+
+sound_engine_data: .e3
+{
+	name: "/sound/truck/skoda_tdi/int/3.ogg"
+
+	looped: true
+
+	pitch_reference: 1200
+
+	min_rpm: 1000.0
+	max_rpm: 1600.0
+	volume: 0.7
+}
+
+sound_engine_data: .e4
+{
+	name: "/sound/truck/skoda_tdi/int/4.ogg"
+
+	looped: true
+
+	pitch_reference: 1450
+
+	min_rpm: 1400.0
+	max_rpm: 1800.0
+	volume: 0.8
+}
+
+sound_engine_data: .e5
+{
+	name: "/sound/truck/skoda_tdi/int/5.ogg"
+
+	looped: true
+
+	pitch_reference: 1800
+
+	min_rpm: 1650.0
+	max_rpm: 3500.0
+	volume: 0.55
+}
+
+sound_engine_data: .el1
+{
+	name: "/sound/truck/skoda_tdi/int/1_b.ogg"
+
+	looped: true
+
+	pitch_reference: 800
+
+	min_rpm: 300.0
+	max_rpm: 1000.0
+	volume: 0.68
+}
+
+sound_engine_data: .el2
+{
+	name: "/sound/truck/skoda_tdi/int/2_b.ogg"
+
+	looped: true
+
+	pitch_reference: 950
+
+	min_rpm: 900.0
+	max_rpm: 1100.0
+	volume: 0.68
+}
+
+sound_engine_data: .el3
+{
+	name: "/sound/truck/skoda_tdi/int/3_b.ogg"
+
+	looped: true
+
+	pitch_reference: 1200
+
+	min_rpm: 1000.0
+	max_rpm: 1600.0
+	volume: 0.7
+}
+
+sound_engine_data: .el4
+{
+	name: "/sound/truck/skoda_tdi/int/4_b.ogg"
+
+	looped: true
+
+	pitch_reference: 1450
+
+	min_rpm: 1400.0
+	max_rpm: 1800.0
+	volume: 0.8
+}
+
+sound_engine_data: .el5
+{
+	name: "/sound/truck/skoda_tdi/int/5_b.ogg"
+
+	looped: true
+
+	pitch_reference: 1800
+
+	min_rpm: 1650.0
+	max_rpm: 3500.0
+	volume: 0.55
+}
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ nofuel sounds
+
+sound_engine_data: .enf1
+{
+	name: "/sound/truck/skoda_tdi/int/1a.ogg"
+
+	looped: true
+	pitch_reference: 950
+	min_rpm: 300.0
+	max_rpm: 1200.0
+	volume: 0.6
+}
+
+sound_engine_data: .enf2
+{
+	name: "/sound/truck/skoda_tdi/int/2a.ogg"
+
+	looped: true
+	pitch_reference: 1350
+	min_rpm: 1100.0
+	max_rpm: 1500.0
+	volume: 0.78
+}
+
+sound_engine_data: .enf3
+{
+	name: "/sound/truck/skoda_tdi/int/3a.ogg"
+
+	looped: true
+	pitch_reference: 1600
+	min_rpm: 1400.0
+	max_rpm: 3500.0
+	volume: 0.83
+}
+
+
+
+sound_data: .t
+{
+	name: "/sound/truck/skoda/int/turbo_int.ogg"
+	looped: true
+
+	volume: 0.8
+}
+
+sound_data: .airgear0
+{
+	name: "/sound/truck/skoda/int/cisza.ogg"
+	volume: 0.6
+}
+
+sound_data: .airgear1
+{
+	name: "/sound/truck/skoda/int/cisza.ogg"
+	volume: 0.6
+}
+
+sound_data: .airgear2
+{
+	name: "/sound/truck/skoda/int/cisza.ogg"
+	volume: 0.6
+}
+
+sound_data: .airbrake0
+{
+	name: "/sound/truck/skoda/int/cisza.ogg"
+	looped: false
+}
+
+sound_data: .airbrake1
+{
+	name: "/sound/truck/skoda/int/cisza.ogg"
+	looped: false
+}
+
+sound_engine_data: .mbrake
+{
+	name: "/sound/truck/skoda/int/cisza.ogg"
+	looped: true	
+	is_2d: true
+	pitch_reference: 1850
+	min_rpm: 750.0
+	max_rpm: 3000.0
+}
+
+sound_data: .horn
+{
+	name: "/sound/truck/skoda/int/klakson_int.ogg"
+	looped: true
+}
+
+sound_data: .reverse
+{
+	name: "/sound/truck/skoda/int/cisza.ogg"
+	looped: true
+}
+
+sound_data: .changeg
+{
+	name: "/sound/truck/volvo/int/gear_change.ogg"
+}
+
+sound_data: .blinker_on
+{
+	name: "/sound/truck/skoda/int/blinker_on.ogg"
+	is_2d: true
+	volume: 0.15
+}
+
+sound_data: .blinker_off
+{
+	name: "/sound/truck/skoda/int/blinker_off.ogg"
+	is_2d: true
+	volume: 0.15
+}
+
+sound_data: .wipers_up
+{
+	name: "/sound/truck/volvo/int/wiper_up.ogg"
+	is_2d: true
+	volume: 0.45
+}
+
+sound_data: .wipers_down
+{
+	name: "/sound/truck/volvo/int/wiper_down.ogg"
+	is_2d: true
+	volume: 0.45
+}
+
+@include "/def/vehicle/truck/common_sound_int_data.sui"
+
+}

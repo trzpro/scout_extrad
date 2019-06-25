@@ -1,0 +1,254 @@
+SiiNunit
+{
+
+flare_blink: flare.vehicle.redflares1
+{
+
+	dir_type: wide
+
+	blink_pattern: "X-X---X-X---X-X---X-X---X-X------X-X---X-X---X-X---X-X---X-X------X-X---X-X---X-X---"
+
+	blink_step_length: 0.10
+	
+
+	light_type: beacon
+	diffuse_color: (0.4, 0.003, 0.003)
+
+	range: 10.0
+
+	inner_angle: 5.0
+
+	outer_angle: 90.0
+
+	type: spot
+
+	forward_distance: false
+	
+
+	model: "/model/flare/uniform_red_amplified.pmd"
+
+	default_scale: 0.632
+	scale_factor: 3
+}
+
+flare_blink: flare.vehicle.redflares2
+{
+
+	dir_type: wide
+
+	blink_pattern: "X-X---X-X---X-X---X-X---X-X---------X-X---X-X---X-X---X-X---X-X---X-X---X-X---X-X---"
+
+	blink_step_length: 0.10
+	
+
+	light_type: beacon
+	diffuse_color: (0.4, 0.003, 0.003)
+
+	range: 10.0
+
+	inner_angle: 5.0
+
+	outer_angle: 90.0
+
+	type: spot
+
+	forward_distance: false
+	
+
+	model: "/model/flare/uniform_red_amplified.pmd"
+
+	default_scale: 0.632
+	scale_factor: 3
+}
+
+flare_blink: flare.vehicle.redflares3
+{
+
+	dir_type: wide
+
+	blink_pattern: "X-X---X-X---X-X---X-X---X-X------X-X-----X-X-----X-X-----X-X-----X-X------X-X---X-X---X-X---"
+
+	blink_step_length: 0.10
+	
+
+	light_type: beacon
+	diffuse_color: (0.4, 0.003, 0.003)
+
+	range: 10.0
+
+	inner_angle: 5.0
+
+	outer_angle: 90.0
+
+	type: spot
+
+	forward_distance: false
+	
+
+	model: "/model/flare/uniform_red_amplified.pmd"
+
+	default_scale: 0.632
+	scale_factor: 3
+}
+
+flare_blink: flare.vehicle.redflares4
+{
+
+	dir_type: wide
+
+	blink_pattern: "---X-X---X-X---X-X---X-X---X-X---X-X-----X-X-----X-X-----X-X-----X-X------X-X---X-X---X-X---"
+
+	blink_step_length: 0.10
+	
+
+	light_type: beacon
+	diffuse_color: (0.4, 0.003, 0.003)
+
+	range: 10.0
+
+	inner_angle: 5.0
+
+	outer_angle: 90.0
+
+	type: spot
+
+	forward_distance: false
+	
+
+	model: "/model/flare/uniform_red_amplified.pmd"
+
+	default_scale: 0.632
+	scale_factor: 3
+}
+
+flare_blink: flare.vehicle.blueflares1{
+
+	dir_type: wide
+	
+
+	light_type: beacon
+
+	
+
+	blink_pattern: "---X-X---X-X---X-X---X-X---X-X---X-X---X-X---X-X---X-X---X-X------X-X---X-X---X-X---"
+	
+        blink_step_length: 0.10	
+
+	diffuse_color: (0.030, 0.050, 0.4)
+
+	range: 10.0
+
+	inner_angle: 5.0
+
+	outer_angle: 90.0
+
+	type: spot
+
+	forward_distance: false
+		
+
+	model: "/model/flare/uniform_blue_amplified.pmd"
+ 
+	default_scale: 0.632
+	scale_factor: 3
+
+}
+flare_blink: flare.vehicle.blueflares2{
+
+	dir_type: wide
+	
+
+	light_type: beacon
+
+	
+
+	blink_pattern: "---X-X---X-X---X-X---X-X---X-X------X-X---X-X---X-X---X-X---X-X---X-X---X-X---X-X---"
+	
+        blink_step_length: 0.10	
+
+	diffuse_color: (0.030, 0.050, 0.4)
+
+	range: 10.0
+
+	inner_angle: 5.0
+
+	outer_angle: 90.0
+
+	type: spot
+
+	forward_distance: false
+		
+
+	model: "/model/flare/uniform_blue_amplified.pmd"
+ 
+	default_scale: 0.632
+	scale_factor: 3
+
+}
+flare_blink: flare.vehicle.blueflares3{
+
+	dir_type: wide
+	
+
+	light_type: beacon
+
+	
+
+	blink_pattern: "X-X---X-X---X-X---X-X---X-X---------X-X-----X-X-----X-X-----X-X-----X-X---X-X---X-X---X-X---"
+	
+        blink_step_length: 0.10	
+
+	diffuse_color: (0.030, 0.050, 0.4)
+
+	range: 10.0
+
+	inner_angle: 5.0
+
+	outer_angle: 90.0
+
+	type: spot
+
+	forward_distance: false
+		
+
+	model: "/model/flare/uniform_blue_amplified.pmd"
+ 
+	default_scale: 0.632
+	scale_factor: 3
+
+}
+flare_blink: flare.vehicle.blueflares4{
+
+	dir_type: wide
+	
+
+	light_type: beacon
+
+	
+
+	blink_pattern: "---X-X---X-X---X-X---X-X---X-X------X-X-----X-X-----X-X-----X-X-----X-X---X-X---X-X---X-X---"
+	
+        blink_step_length: 0.10	
+
+	diffuse_color: (0.030, 0.050, 0.4)
+
+	range: 10.0
+
+	inner_angle: 5.0
+
+	outer_angle: 90.0
+
+	type: spot
+
+	forward_distance: false
+		
+
+	model: "/model/flare/uniform_blue_amplified.pmd"
+ 
+	default_scale: 0.632
+	scale_factor: 3
+
+}
+}
+
+

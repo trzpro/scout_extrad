@@ -1,0 +1,32 @@
+SiiNunit
+{
+accessory_chassis_data : tmp_van2.skoda.superb.chassis
+{
+	name: "TMP_AOT_02_00 - Van 2"
+	price: 0
+	unlock: 0
+	info[]: "4x2"
+	info[]: "60 @@unit_l@@"
+	icon: "ets2mp"
+	model: "/vehicle/ai/transporter_t6/ai.pmd"
+	lods[]: "/vehicle/ai/transporter_t6/lod.pmd"
+	lods[]: "/vehicle/ai/transporter_t6/lod2.pmd"
+	collision: "/vehicle/ai/transporter_t6/ai.pmc"
+	residual_travel[]: 0.11 	# 1st axle
+	residual_travel[]: 0.11  	# 2nd axle
+	tank_size: 360
+	variant: escort_2
+	variant_uk: escort_2_uk
+	look: escort_2
+	defaults[]: "/def/vehicle/truck/skoda.superb/paint_job/color1.sii"
+	shadow_texture: "/vehicle/ai/share/shadow_occlusion.tobj"
+	shadow_intensity: 1.4
+	ui_shadow: "/vehicle/truck/skoda_superb/shadow.pmd"
+	powered_axle[0]: true	# front
+	powered_axle[1]: true	# rear
+	kerb_weight[0]:	4500.1
+	kerb_weight[1]:	4500.1
+
+@include "chassis_incompatible.sui"
+}
+}

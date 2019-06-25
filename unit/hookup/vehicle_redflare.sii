@@ -1,0 +1,207 @@
+SiiNunit
+{
+
+flare_blink: flare.vehicle.redflare1
+{
+
+	dir_type: wide
+
+	
+light_type: beacon
+
+	
+blink_pattern: "----X-X-----X-X-----X-X-----X-X-X-X-X-X-X-X-X-X---X-X---X-X---X-X---X-X---X-X---X-X----X-X---X-X---X-X---X-X---X-X---X-X----"
+
+	blink_step_length: 0.11		
+
+	model: "/model/flare/uniform_red_amplified.pmd"
+	
+
+	default_scale: 1
+
+	scale_factor: 1
+
+	fake_interior_offset: 1.5
+}
+
+flare_blink: flare.vehicle.redflare2
+{
+
+	dir_type: wide
+
+	
+light_type: beacon
+
+	
+blink_pattern: "----X-X-----X-X-----X-X-----X-X-X-X-X-X-X-X-X-X---X-X---X-X---X-X---X-X---X-X---X-X-------X-X---X-X---X-X---X-X---X-X---X-X-"
+
+	blink_step_length: 0.11		
+
+	model: "/model/flare/uniform_red_amplified.pmd"
+	
+
+	default_scale: 1
+
+	scale_factor: 1
+
+
+	fake_interior_offset: 1.5
+}
+
+flare_blink: flare.vehicle.redflare3
+{
+
+	dir_type: wide
+
+	
+light_type: beacon
+
+	
+blink_pattern: "----X-X-----X-X-----X-X-----X-X-X-X-X-X-X-X-X-X------X-X---X-X---X-X---X-X---X-X---X-X----X-X---X-X---X-X---X-X---X-X---X-X-"
+
+	blink_step_length: 0.11		
+
+	model: "/model/flare/uniform_red_amplified.pmd"
+	
+
+	default_scale: 1
+	scale_factor: 1
+
+	fake_interior_offset: 1.5
+}
+
+flare_blink: flare.vehicle.redflare4
+{
+
+	dir_type: wide
+
+	
+light_type: beacon
+
+	
+blink_pattern: "----X-X-----X-X-----X-X-----X-X-X-X-X-X-X-X-X-X------X-X---X-X---X-X---X-X---X-X---X-X-X-X---X-X---X-X---X-X---X-X---X-X----"
+
+	blink_step_length: 0.11		
+
+	model: "/model/flare/uniform_red_amplified.pmd"
+	
+
+	default_scale: 1
+
+	scale_factor: 1
+
+
+	fake_interior_offset: 1.5
+}
+
+flare_blink: light.vehicle.redflare1
+{
+
+	light_type: beacon
+	
+
+	blink_pattern: "----X-X-----X-X-----X-X-----X-X-X-X-X-X-X-X-X-X---X-X---X-X---X-X---X-X---X-X---X-X----X-X---X-X---X-X---X-X---X-X---X-X----"
+
+	blink_step_length: 0.11
+	
+diffuse_color: (0.4, 0.003, 0.003)
+	range: 60.0
+
+	inner_angle: 5.0
+
+	outer_angle: 90.0
+
+	pitch_offset: 12
+
+	type: spot
+
+	forward_distance: false
+
+
+	fake_interior_offset: 1.5
+}
+
+flare_blink: light.vehicle.redflare2
+{
+
+	light_type: beacon
+	
+
+	blink_pattern: "----X-X-----X-X-----X-X-----X-X-X-X-X-X-X-X-X-X---X-X---X-X---X-X---X-X---X-X---X-X-------X-X---X-X---X-X---X-X---X-X---X-X-"
+
+	blink_step_length: 0.11
+	
+diffuse_color: (0.4, 0.003, 0.003)
+	range: 60.0
+
+	inner_angle: 5.0
+
+	outer_angle: 90.0
+
+	pitch_offset: 12
+
+	type: spot
+
+	forward_distance: false
+
+
+	fake_interior_offset: 1.5
+}
+
+flare_blink: light.vehicle.redflare3
+{
+
+	light_type: beacon
+	
+
+	blink_pattern: "----X-X-----X-X-----X-X-----X-X-X-X-X-X-X-X-X-X------X-X---X-X---X-X---X-X---X-X---X-X----X-X---X-X---X-X---X-X---X-X---X-X-"
+
+	blink_step_length: 0.11
+	
+diffuse_color: (0.4, 0.003, 0.003)
+	range: 60.0
+
+	inner_angle: 5.0
+
+	outer_angle: 90.0
+
+	pitch_offset: 12
+
+	type: spot
+
+	forward_distance: false
+
+
+	fake_interior_offset: 1.5
+}
+
+flare_blink: light.vehicle.redflare4
+{
+
+	light_type: beacon
+	
+
+	blink_pattern: "----X-X-----X-X-----X-X-----X-X-X-X-X-X-X-X-X-X------X-X---X-X---X-X---X-X---X-X---X-X-X-X---X-X---X-X---X-X---X-X---X-X----"
+
+	blink_step_length: 0.11
+	
+diffuse_color: (0.4, 0.003, 0.003)
+	range: 60.0
+
+	inner_angle: 5.0
+
+	outer_angle: 90.0
+
+	pitch_offset: 12
+
+	type: spot
+
+	forward_distance: false
+
+
+	fake_interior_offset: 1.5
+}
+
+}
+
+
