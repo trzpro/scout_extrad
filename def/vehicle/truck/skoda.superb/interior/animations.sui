@@ -14,6 +14,7 @@
 	wiper_stick_anim: "/vehicle/truck/skoda_superb/interior/wajcha_wyc.pma"
 	lights_anim: "/vehicle/truck/skoda_superb/interior/swiatla.pma"
 	indicator_generic: "/vehicle/truck/skoda_superb/interior/generic.pma"
+	auto_transmission_stick_anim: "/vehicle/truck/skoda_superb/interior/gear.pma"
 
 
 	water_temp_anim: "/vehicle/truck/skoda_superb/interior/temp.pma"

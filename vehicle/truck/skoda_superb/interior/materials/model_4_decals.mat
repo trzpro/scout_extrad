@@ -2,7 +2,7 @@ material : "eut2.dif.lum.spec" {
 	texture[0] : "/vehicle/truck/skoda_superb/interior/textures/decals.tobj"
 	texture_name[0] : "texture_base"
 	diffuse : { 1 , 1 , 1 }
-	specular : { 0.0705882 , 0.0705882 , 0.0705882 }
+	specular : { 0.0666667 , 0.0666667 , 0.0666667 }
 	shininess : 50
 	add_ambient : 0
 	aux[1] : { 0 , 0 }
