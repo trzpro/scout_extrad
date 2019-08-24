@@ -19,3 +19,5 @@ Extras
 -Added mod manager information files
 
 -Added few materials and textures these would be needed while converting
+
+-Added support for ATS dealers
